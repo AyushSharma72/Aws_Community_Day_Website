@@ -2,18 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-.HeroSectionParent {
-  background-color: #663398;
-}
 html {
   font-family: Poppins, sans-serif;
+}
+
+/* navabar */
+.active {
+  color: #030006;
+}
+
+.navbar a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #030006;
+  transition: width 0.4s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* herosection */
+
+.HeroSectionParent {
+  /* background-color: #663398; */
+  background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
 }
 
 .custom-line-height {
   line-height: 76px;
 }
 .textshadow {
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
 }
 
 /* animation div */
@@ -28,10 +50,10 @@ html {
 .button {
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  padding-block: 0.5rem;
+  padding-block: 1rem;
 
   background-color: #7c5aed;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +63,7 @@ html {
   border: 3px solid #ffffff6e;
   outline: none;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 17px;
   width: 12%;
 }
 

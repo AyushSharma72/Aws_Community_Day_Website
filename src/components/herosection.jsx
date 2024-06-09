@@ -1,35 +1,67 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AwsLogo from "../assets/AWS_logo_RGB_WHT.png";
-import AwsAnimation from "../Animations/awsAnimation";
+import AOS from "aos";
+import "aos/dist/aos.css";
+// import AwsAnimation from "../Animations/awsAnimation";
 
 const Herosection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      once: true, // Whether animation should happen only once - while scrolling down
+      mirror: false,
+    });
+  }, []);
   return (
-    <div className="flex  HeroSectionParent  flex-col p-2 ">
-      {/* animation */}
-      <div className="w-full flex justify-center">
-        <div id="AnimationDiv">
+    <div className="flex  HeroSectionParent  flex-col p-2  space-y-7">
+      <div className="w-full flex justify-center mt-2" data-aos="fade-left">
+        {/* animation */}
+        {/* <div id="AnimationDiv" className="mb-3">
           <AwsAnimation />
-        </div>
+        </div> */}
+
+        <img src={AwsLogo} className="w-20"></img>
       </div>
 
       {/* text */}
-      <div className="flex flex-col justify-center  items-center space-y-5">
-        <h1 className="text-5xl  textshadow  font-bold  text-white ">
-          Welcome To AWS Student Community Day Indore
+      <div className="flex flex-col justify-center  items-center space-y-7">
+        <h3
+          className="text-4xl  textshadow  font-bold  text-white  tracking-wide"
+          data-aos="fade-right"
+        >
+          {" "}
+          STUDENT
+        </h3>
+        <h1
+          className="text-6xl  textshadow  font-bold  text-white tracking-wide delay-500"
+          data-aos="fade-left"
+        >
+          {/* Welcome To AWS  */}
+          COMMUNITY DAY
+          {/*  Indore  */}
         </h1>
-        <h3 className="text-1xl  font-bold  text-white textshadow ">
+        <h3
+          className="text-2xl  font-bold  text-white textshadow tracking-wide delay-500"
+          data-aos="fade-right"
+        >
           {" "}
           Organized by AWS Cloud Clubs
         </h3>
-        <p className="text-2xl  font-bold  text-white textshadow ">
+        <p
+          className="text-3xl  font-bold  text-white textshadow tracking-wide delay-1000"
+          data-aos="fade-right"
+        >
           {" "}
           27th September 2024, DAVV Auditorium  Indore
         </p>
       </div>
 
       {/* register button  */}
-      <div className="flex justify-center mt-6 items-center ">
-        <button className="button mt-2 mb-7">
+      <div
+        className="flex justify-center items-center delay-1000"
+        data-aos="fade-left"
+      >
+        <button className="button mt-4 mb-9 ">
           Register Now
           <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
             <path

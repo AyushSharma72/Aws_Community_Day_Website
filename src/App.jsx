@@ -14,10 +14,10 @@ import Venue from './components/Venue';
     <>
       <Navbar/>
       <Herosection />
-      {/* <About/>
+      <About/>
       <Speakers/>
       <Team/>
-      <Venue/> */}
+      <Venue/>
     </>
   );
 }

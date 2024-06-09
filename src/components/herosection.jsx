@@ -4,9 +4,7 @@ import AwsAnimation from "../Animations/awsAnimation";
 
 const Herosection = () => {
   return (
-    <div className="flex  HeroSectionParent  flex-col  ">
-      <img src={AwsLogo} className="w-16 mt-4 ml-4"></img>
-
+    <div className="flex  HeroSectionParent  flex-col p-2 ">
       {/* animation */}
       <div className="w-full flex justify-center">
         <div id="AnimationDiv">
@@ -21,7 +19,7 @@ const Herosection = () => {
         </h1>
         <h3 className="text-1xl  font-bold  text-white textshadow ">
           {" "}
-          Organized by AWS Cloud Club, IIPS DAVV
+          Organized by AWS Cloud Clubs
         </h3>
         <p className="text-2xl  font-bold  text-white textshadow ">
           {" "}

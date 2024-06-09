@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .HeroSectionParent {
-  background-color: #7c5aed;
+  background-color: #663398;
 }
 html {
   font-family: Poppins, sans-serif;
@@ -30,7 +30,7 @@ html {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 0.5rem;
 
-  background-color: #522fc2;
+  background-color: #7c5aed;
   border-radius: 5px;
   display: flex;
   align-items: center;

@@ -1,5 +1,5 @@
 import React from 'react'
-import AWSImage from '../assets/aws.pptx0.png'
+import AWSImage from '../assets/AWSLogo.png'
 function Navbar() {
 
 
@@ -7,7 +7,7 @@ function Navbar() {
 
     <div className="bg-[#7C5AED] p-2 fixed w-full">
     <div className="flex flex-col md:flex-row justify-between items-center">
-    <img className="h-[100px] w-[200px] pl-3 mb-4 md:mb-0" src={AWSImage} alt="AWS Community Day  Logo" />
+    <img className="h-[90px] w-[180px]  mb-4 md:mb-0" src={AWSImage} alt="AWS Community Day  Logo" />
     <ul className="text-white flex flex-col md:flex-row items-center gap-4 md:gap-10 font-semibold pr-10">
       <li className="cursor-pointer hover:underline">Home</li>
       <li className="cursor-pointer hover:underline">About</li>

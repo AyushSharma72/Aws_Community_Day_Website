@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: Poppins, sans-serif;
-}
-
 /* navabar */
 .active {
-  color: #030006;
+  color: #ffebb2;
 }
 
 .navbar a::after {
@@ -16,12 +12,26 @@ html {
   display: block;
   width: 0;
   height: 3px;
-  background: #030006;
-  transition: width 0.4s;
+  background: #ffebb2;
+  transition: width 0.5s;
 }
 
 .navbar a:hover::after {
   width: 100%;
+}
+.navbar a:hover {
+  color: #ffebb2;
+  transition: color 0.5s;
+}
+.navbar {
+  /* background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%); */
+  background-color: #401f71;
+  /* background: linear-gradient(90deg, #A531DC 0%, #4300B1 100%); */
+  /* background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%); */
+  /* background: linear-gradient(220.55deg, #565656 0%, #181818 100%); */
+  /* background: linear-gradient(220.55deg, #5D85A6 0%, #0E2C5E 100%); */
+  /* background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%); */
+  /* background: linear-gradient(220.55deg, #61C695 0%, #133114 100%); */
 }
 
 /* herosection */
@@ -52,7 +62,7 @@ html {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 1rem;
 
-  background-color: #7c5aed;
+  background-color: #401f71;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -63,7 +73,7 @@ html {
   border: 3px solid #ffffff6e;
   outline: none;
   overflow: hidden;
-  font-size: 17px;
+  font-size: 20px;
   width: 12%;
 }
 

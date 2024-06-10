@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import AwsLogo from "../assets/AWS_logo_RGB_WHT.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaCalendarDays } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 // import AwsAnimation from "../Animations/awsAnimation";
 
 const Herosection = () => {
@@ -27,7 +29,7 @@ const Herosection = () => {
       <div className="flex flex-col justify-center  items-center space-y-7">
         <h3
           className="text-4xl  textshadow  font-bold  text-white  tracking-wide delay-300"
-          data-aos="fade-down"
+          data-aos="fade-left"
         >
           {" "}
           STUDENT
@@ -51,13 +53,18 @@ const Herosection = () => {
           Organized by AWS Cloud Clubs
         </h3>
         <p
-          className="text-3xl  font-bold  text-white textshadow tracking-wide"
+          className="text-3xl  font-bold flex  items-center  text-white textshadow tracking-wide"
           data-aos-delay="900"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
         >
           {" "}
-          27th September 2024, DAVV Auditorium  Indore
+          <span className="flex gap-3 items-center">
+            <FaCalendarDays /> 27th September 2024,{" "}
+          </span>
+          <span className="flex gap-1 items-center">
+            <FaLocationDot /> DAVV Auditorium Indore
+          </span>{" "}
         </p>
       </div>
 

@@ -1,30 +1,27 @@
-
-import React from 'react';
-import Herosection from "./components/herosection";
+import React from "react";
 import Navbar from "./components/Navbar";
-import About from './components/About';
-import Speakers from './components/Speakers'
-import Team from './components/Team'
-import Venue from './components/Venue';
+import Herosection from "./components/herosection";
+import Eventhighlights from "./components/eventhighlights";
+import About from "./components/About";
+import Speakers from "./components/Speakers";
+import Team from "./components/Team";
+import Venue from "./components/Venue";
 
-
- function App() {
-
+function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Herosection />
-      <About/>
-      <Speakers/>
-      <Team/>
-      <Venue/>
+      <Eventhighlights />
+      {/* <About />
+      <Speakers />
+      <Team />
+      <Venue /> */}
     </>
   );
 }
 
 export default App;
-
-
 
 // import React from 'react';
 // import { BrowserRouter , useLocation} from 'react-router-dom';
@@ -38,7 +35,7 @@ export default App;
 
 // const ScrollToElement = () => {
 //   const location = useLocation();
-  
+
 //   React.useEffect(() => {
 //     if (location.hash) {
 //       scroller.scrollTo(location.hash.substring(1), {
@@ -86,4 +83,3 @@ export default App;
 // }
 
 // export default App;
-

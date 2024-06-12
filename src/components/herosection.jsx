@@ -2,19 +2,21 @@ import React, { useEffect } from "react";
 import AwsLogo from "../assets/AWS_logo_RGB_WHT.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaCalendarDays } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 // import AwsAnimation from "../Animations/awsAnimation";
 
 const Herosection = () => {
   useEffect(() => {
     AOS.init({
-      duration: 500,
+      duration: 700,
       once: true, // Whether animation should happen only once - while scrolling down
       mirror: false,
     });
   }, []);
   return (
     <div className="flex  HeroSectionParent  flex-col p-2  space-y-7">
-      <div className="w-full flex justify-center mt-2" data-aos="fade-left">
+      <div className="w-full flex justify-center mt-2" data-aos="fade-right">
         {/* animation */}
         {/* <div id="AnimationDiv" className="mb-3">
           <AwsAnimation />
@@ -26,40 +28,52 @@ const Herosection = () => {
       {/* text */}
       <div className="flex flex-col justify-center  items-center space-y-7">
         <h3
-          className="text-4xl  textshadow  font-bold  text-white  tracking-wide"
-          data-aos="fade-right"
+          className="text-4xl  textshadow  font-bold  text-white  tracking-wide delay-300"
+          data-aos="fade-left"
         >
           {" "}
           STUDENT
         </h3>
+
         <h1
           className="text-6xl  textshadow  font-bold  text-white tracking-wide delay-500"
-          data-aos="fade-left"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
         >
           {/* Welcome To AWS  */}
           COMMUNITY DAY
           {/*  Indore  */}
         </h1>
         <h3
-          className="text-2xl  font-bold  text-white textshadow tracking-wide delay-500"
-          data-aos="fade-right"
+          className="text-2xl  font-bold  text-white textshadow tracking-wide delay-700"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
         >
           {" "}
           Organized by AWS Cloud Clubs
         </h3>
         <p
-          className="text-3xl  font-bold  text-white textshadow tracking-wide delay-1000"
-          data-aos="fade-right"
+          className="text-3xl  font-bold flex  items-center  text-white textshadow tracking-wide"
+          data-aos-delay="900"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
         >
           {" "}
-          27th September 2024, DAVV Auditorium  Indore
+          <span className="flex gap-3 items-center">
+            <FaCalendarDays /> 27th September 2024,{" "}
+          </span>
+          <span className="flex gap-1 items-center">
+            <FaLocationDot /> DAVV Auditorium Indore
+          </span>{" "}
         </p>
       </div>
 
       {/* register button  */}
       <div
-        className="flex justify-center items-center delay-1000"
-        data-aos="fade-left"
+        className="flex justify-center items-center "
+        data-aos="fade-up"
+        data-aos-delay="1200"
+        data-aos-easing="ease-out-cubic"
       >
         <button className="button mt-4 mb-9 ">
           Register Now

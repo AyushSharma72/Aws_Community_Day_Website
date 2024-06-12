@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* utitliy */
+
+.purplegradient {
+  background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
+}
 /* navabar */
 .active {
   color: #ffebb2;
@@ -35,11 +40,6 @@
 }
 
 /* herosection */
-
-.HeroSectionParent {
-  /* background-color: #663398; */
-  background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
-}
 
 .custom-line-height {
   line-height: 76px;

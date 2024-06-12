@@ -15,7 +15,7 @@ const Herosection = () => {
     });
   }, []);
   return (
-    <div className="flex  HeroSectionParent  flex-col p-2  space-y-7">
+    <div className="flex  purplegradient  flex-col p-2  space-y-7">
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">
         {/* animation */}
         {/* <div id="AnimationDiv" className="mb-3">
@@ -70,7 +70,7 @@ const Herosection = () => {
 
       {/* register button  */}
       <div
-        className="flex justify-center items-center "
+        className="flex justify-center items-center w-full "
         data-aos="fade-up"
         data-aos-delay="1200"
         data-aos-easing="ease-out-cubic"

@@ -16,10 +16,10 @@ function About() {
       data-aos="fade-zoom-in"
       id="About"
     >
-      <h2 className="text-gray-900 font-bold text-4xl leading-10 mt-6 mb-4 m-6 mr-4 ml-4 md:mr-0 text-center ">
+      <h2 className="text-gray-900 font-bold text-3xl leading-10 mt-6 mb-4 m-6 mr-4 ml-4 md:mr-0 text-center ">
         About AWS Student Community Day 2024
       </h2>
-      <p className="text-gray-700 max-w-[900px] text-justify leading-8 m-4 text-2xl md:m-0 ">
+      <p className="text-gray-700 max-w-[900px] text-justify leading-8 m-4 text-xl md:m-0 ">
         <p className="mb-4">
           AWS Cloud Club Community Days (formerly known as Student Symposia) are
           one-day, student-led events where the content and logistics are owned

@@ -64,7 +64,7 @@ const Herosection = () => {
           {" "}
           <span className="flex gap-3 items-center">
             <FaCalendarDays /> 27th September 2024,{" "}
-          </span>
+          </span>{" "}
           <span className="flex gap-1 items-center">
             <FaLocationDot /> DAVV Auditorium Indore
           </span>{" "}

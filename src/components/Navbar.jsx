@@ -5,22 +5,23 @@ function Navbar() {
   const [hash, Sethash] = useState("Home");
 
   const handleNavLinkClick = () => {
-    console.log(hash);
     const targetId = hash;
+
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      const offset = 110; // Adjust this value as needed
-      const targetPosition = targetElement.offsetTop - offset;
+      const targetPosition = targetElement.offsetTop - 90;
+
       window.scrollTo({
         top: targetPosition,
+        behavior: "smooth",
       });
     }
   };
 
   const checkActivePage = () => {
-    const page = hash;
     document.querySelectorAll(".navbar li").forEach((activePage) => {
-      if (activePage.id === page) {
+      if (activePage.getAttribute("name") === hash) {
+        console.log(activePage.name);
         activePage.classList.add("active");
       } else {
         activePage.classList.remove("active");
@@ -45,7 +46,7 @@ function Navbar() {
         <div className="text-white flex flex-col md:flex-row items-center gap-4 md:gap-10 font-semibold pr-10 ">
           <li
             className=" font-bold"
-            id="Home"
+            name="Home"
             onClick={() => {
               Sethash("Home");
             }}
@@ -54,15 +55,16 @@ function Navbar() {
           </li>
           <li
             className=" font-bold"
-            id="About"
-            onClick={() => {
+            name="About"
+            onClick={(e) => {
               Sethash("About");
             }}
           >
             About{" "}
           </li>
           <li
-            className=" font-bold"
+            name="Speakers"
+            className="font-bold"
             onClick={() => {
               Sethash("Speakers");
             }}
@@ -70,6 +72,7 @@ function Navbar() {
             Speakers
           </li>
           <li
+            name="Venue"
             className=" font-bold"
             onClick={() => {
               Sethash("Venue");
@@ -78,6 +81,7 @@ function Navbar() {
             Venue
           </li>
           <li
+            name="Sponsers"
             className=" font-bold"
             onClick={() => {
               Sethash("Sponsers");
@@ -86,6 +90,7 @@ function Navbar() {
             Sponsers
           </li>
           <li
+            name="Team"
             className=" font-bold"
             onClick={() => {
               Sethash("Team");

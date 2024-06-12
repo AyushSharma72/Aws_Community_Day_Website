@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import AWSImage from "../assets/navbarlogo2.png";
+
 function Navbar() {
   useEffect(() => {
     const checkActivePage = () => {
@@ -25,7 +26,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="p-2  w-full navbar">
+    <div className="p-2  w-full navbar fixed top-0 z-10">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <img
           className="h-[100px] w-[230px] pl-3 mb-4 md:mb-0"

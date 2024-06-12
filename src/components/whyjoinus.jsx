@@ -6,7 +6,7 @@ import Food from "../Animations/food";
 
 const Whyjoinus = () => {
   return (
-    <div className="flex flex-col justify-center items-center purplegradient">
+    <div className="flex flex-col justify-center items-center purplegradient mt-3">
       <h3 className="text-4xl textshadow text-white font-bold mt-3">
         Why Attend ?
       </h3>

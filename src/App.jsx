@@ -14,11 +14,13 @@ function App() {
       <Navbar />
       <Herosection />
       <Eventhighlights />
+      <About />
       <Whyjoinus />
-      {/* <About />
+      {/* 
    
+    
       <Speakers />
-      <Team />
+      {/* <Team />
       <Venue /> */}
     </>
   );

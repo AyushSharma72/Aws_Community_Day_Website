@@ -15,7 +15,7 @@ const Herosection = () => {
     });
   }, []);
   return (
-    <div className="flex  purplegradient  flex-col p-2  space-y-7">
+    <div className="flex  purplegradient  flex-col p-2  space-y-7  mt-[116px]">
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">
         {/* animation */}
         {/* <div id="AnimationDiv" className="mb-3">

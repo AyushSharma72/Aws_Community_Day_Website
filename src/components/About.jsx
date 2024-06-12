@@ -11,8 +11,8 @@ function About() {
   }, []);
 
   return (
-    <div className='flex flex-col justify-center items-center flex-wrap' data-aos="fade-zoom-in">
-      <h2 className='text-gray-900 font-bold text-2xl leading-8 mt-6 mb-4 m-6 mr-4 ml-4 md:mr-0 text-center'>About AWS Student Community Day 2024</h2>
+     <div className='flex flex-col justify-center items-center flex-wrap font-[Poppins, sans-serif]' data-aos="fade-zoom-in">
+      <h2 className='text-gray-900 font-bold text-3xl leading-8 mt-6 mb-4 m-6 mr-4 ml-4 md:mr-0 text-center'>About AWS Student Community Day 2024</h2>
       <p className='text-gray-700 max-w-[600px] text-justify leading-7 m-4 md:m-0 '>
        <p className='mb-4'>
        AWS Cloud Club Community Days (formerly known as Student

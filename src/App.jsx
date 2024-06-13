@@ -16,6 +16,7 @@ function App() {
       <Eventhighlights />
       <About />
       <Whyjoinus />
+      <Speakers id=""/>
       {/* 
    
     

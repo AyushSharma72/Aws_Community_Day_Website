@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import AWSImage from "../assets/navbarlogo2.png";
+import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery, useTheme } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
   const [hash, Sethash] = useState("Home");
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   const handleNavLinkClick = () => {
     const targetId = hash;
@@ -34,73 +39,60 @@ function Navbar() {
     handleNavLinkClick();
   }, [hash]);
 
+  const toggleDrawer = (open) => (event) => {
+    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+      return;
+    }
+    setDrawerOpen(open);
+  };
+
+  const drawerList = () => (
+    <div role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+      <List>
+        {['Home', 'About', 'Speakers', 'Venue', 'Sponsers', 'Team'].map((text) => (
+          <ListItem button key={text} onClick={() => Sethash(text)}>
+            <ListItemText primary={text} />
+          </ListItem>
+        ))}
+      </List>
+    </div>
+  );
+
   return (
-    <div className="p-2  w-full navbar fixed top-0 z-10">
-      <div className="flex flex-col md:flex-row justify-between items-center">
+    <div className="w-full navbar fixed top-0 z-10">
+      <AppBar position="static" className="p-2">
+        <Toolbar className="flex justify-between">
         <img
-          className="h-[80px] w-[200px] pl-3 mb-4 md:mb-0"
+          className="h-[80px] w-[200px] pl-3"
           src={AWSImage}
           alt="AWS Community Day  Logo"
         />
-
-        <div className="text-white flex flex-col md:flex-row items-center gap-4 md:gap-10 font-semibold pr-10 ">
+    
+      {isMobile?(
+       <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer(true)} >
+        <MenuIcon/>
+       </IconButton>
+      ):(
+        <ul className="text-white flex gap-8 font-semibold list-none ">
+        {["Home", "About", "Speakers", "Venue", "Sponsers", "Team"].map((text) => (
           <li
-            className=" font-bold"
-            name="Home"
-            onClick={() => {
-              Sethash("Home");
-            }}
+            key={text}
+            className="font-bold cursor-pointer"
+            name={text}
+            onClick={() => Sethash(text)}
           >
-            Home
+            {text}
           </li>
-          <li
-            className=" font-bold"
-            name="About"
-            onClick={(e) => {
-              Sethash("About");
-            }}
-          >
-            About{" "}
-          </li>
-          <li
-            name="Speakers"
-            className="font-bold"
-            onClick={() => {
-              Sethash("Speakers");
-            }}
-          >
-            Speakers
-          </li>
-          <li
-            name="Venue"
-            className=" font-bold"
-            onClick={() => {
-              Sethash("Venue");
-            }}
-          >
-            Venue
-          </li>
-          <li
-            name="Sponsers"
-            className=" font-bold"
-            onClick={() => {
-              Sethash("Sponsers");
-            }}
-          >
-            Sponsers
-          </li>
-          <li
-            name="Team"
-            className=" font-bold"
-            onClick={() => {
-              Sethash("Team");
-            }}
-          >
-            Team
-          </li>
-        </div>
-      </div>
+        ))}
+      </ul>
+      )}
+        </Toolbar>
+      </AppBar>
+      <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
+         {drawerList()}
+      </Drawer>
     </div>
   );
 }
 export default Navbar;
+

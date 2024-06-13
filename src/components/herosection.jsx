@@ -39,24 +39,23 @@ const Herosection = () => {
         </h3>
 
         <h1
-          className="text-5xl  textshadow  font-bold  text-white tracking-wide delay-500"
+          className="text-4xl  textshadow  text-center  font-bold  text-white tracking-wide delay-500 sm:text-5xl "
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
         >
-          {/* Welcome To AWS  */}
           COMMUNITY DAY
-          {/*  Indore  */}
         </h1>
         <h3
-          className="text-xl  font-bold  text-white textshadow tracking-wide delay-700"
+          className="text-xl  text-center font-bold  text-white textshadow tracking-wide delay-700"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
         >
           {" "}
           Organized by AWS Cloud Clubs
         </h3>
+
         <p
-          className="text-2xl  font-bold flex  items-center  text-white textshadow tracking-wide"
+          className=" text-xl  text-center font-bold flex flex-col gap-y-3 items-center  text-white textshadow tracking-wide md:flex-row sm:text-2xl"
           data-aos-delay="900"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
@@ -65,7 +64,7 @@ const Herosection = () => {
           <span className="flex gap-3 items-center">
             <FaCalendarDays /> 27th September 2024,{" "}
           </span>{" "}
-          <span className="flex gap-1 items-center">
+          <span className="flex gap-1 items-center  ">
             <FaLocationDot /> DAVV Auditorium Indore
           </span>{" "}
         </p>
@@ -78,7 +77,7 @@ const Herosection = () => {
         data-aos-delay="1200"
         data-aos-easing="ease-out-cubic"
       >
-        <button className="button mt-4 mb-9 ">
+        <button className="button mt-4 mb-9 w-[160px] md:w-[160px] sm:w-[160px] lg:w-[160px] xl:w-[160px]  2xl:w-[160px]">
           Register Now
           <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
             <path

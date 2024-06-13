@@ -78,7 +78,6 @@ html {
   outline: none;
   overflow: hidden;
   font-size: 15px;
-  width: 12%;
 }
 
 .icon {
@@ -128,4 +127,16 @@ html {
   to {
     left: 100%;
   }
+}
+
+.cardshadow {
+  transition:
+    box-shadow 0.2s,
+    transform 0.3s;
+}
+.cardshadow:hover {
+  transform: scale(1.03);
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }

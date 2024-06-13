@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Herosection id="Home" />
+      <Herosection />
       <Eventhighlights />
-      <About id="About" />
+      <About />
       <Whyjoinus />
       <Speakers id=""/>
       {/* 

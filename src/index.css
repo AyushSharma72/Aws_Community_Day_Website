@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+/* utitliy */
+
+.purplegradient {
+  background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
+}
 /* navabar */
 .active {
   color: #ffebb2;
 }
 
-.navbar a::after {
+.navbar li::after {
   content: "";
   display: block;
   width: 0;
@@ -16,12 +24,16 @@
   transition: width 0.5s;
 }
 
-.navbar a:hover::after {
+.navbar li:hover::after {
   width: 100%;
 }
-.navbar a:hover {
+.navbar li:hover {
   color: #ffebb2;
   transition: color 0.5s;
+}
+.navbar li {
+  list-style-type: none;
+  cursor: pointer;
 }
 .navbar {
   /* background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%); */
@@ -36,14 +48,6 @@
 
 /* herosection */
 
-.HeroSectionParent {
-  /* background-color: #663398; */
-  background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
-}
-
-.custom-line-height {
-  line-height: 76px;
-}
 .textshadow {
   text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
 }
@@ -60,7 +64,7 @@
 .button {
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  padding-block: 1rem;
+  padding-block: 0.8rem;
 
   background-color: #401f71;
   border-radius: 10px;
@@ -73,7 +77,7 @@
   border: 3px solid #ffffff6e;
   outline: none;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 15px;
   width: 12%;
 }
 

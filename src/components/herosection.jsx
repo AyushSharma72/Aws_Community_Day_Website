@@ -15,10 +15,13 @@ const Herosection = () => {
     });
   }, []);
   return (
-    <div className="flex  HeroSectionParent  flex-col p-2  space-y-7">
+    <div
+      className="flex  purplegradient  flex-col p-2  space-y-7  mt-[96px]"
+      id="Home"
+    >
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">
         {/* animation */}
-        {/* <div id="AnimationDiv" className="mb-3">
+        {/* <div id="AnimationDiv" className="mb-3">  
           <AwsAnimation />
         </div> */}
 
@@ -26,9 +29,9 @@ const Herosection = () => {
       </div>
 
       {/* text */}
-      <div className="flex flex-col justify-center  items-center space-y-7">
+      <div className="flex flex-col justify-center  items-center space-y-5">
         <h3
-          className="text-4xl  textshadow  font-bold  text-white  tracking-wide delay-300"
+          className="text-3xl  textshadow  font-bold  text-white  tracking-wide delay-300"
           data-aos="fade-left"
         >
           {" "}
@@ -36,7 +39,7 @@ const Herosection = () => {
         </h3>
 
         <h1
-          className="text-6xl  textshadow  font-bold  text-white tracking-wide delay-500"
+          className="text-5xl  textshadow  font-bold  text-white tracking-wide delay-500"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
         >
@@ -45,7 +48,7 @@ const Herosection = () => {
           {/*  Indore  */}
         </h1>
         <h3
-          className="text-2xl  font-bold  text-white textshadow tracking-wide delay-700"
+          className="text-xl  font-bold  text-white textshadow tracking-wide delay-700"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
         >
@@ -53,7 +56,7 @@ const Herosection = () => {
           Organized by AWS Cloud Clubs
         </h3>
         <p
-          className="text-3xl  font-bold flex  items-center  text-white textshadow tracking-wide"
+          className="text-2xl  font-bold flex  items-center  text-white textshadow tracking-wide"
           data-aos-delay="900"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
@@ -61,7 +64,7 @@ const Herosection = () => {
           {" "}
           <span className="flex gap-3 items-center">
             <FaCalendarDays /> 27th September 2024,{" "}
-          </span>
+          </span>{" "}
           <span className="flex gap-1 items-center">
             <FaLocationDot /> DAVV Auditorium Indore
           </span>{" "}
@@ -70,7 +73,7 @@ const Herosection = () => {
 
       {/* register button  */}
       <div
-        className="flex justify-center items-center "
+        className="flex justify-center items-center w-full "
         data-aos="fade-up"
         data-aos-delay="1200"
         data-aos-easing="ease-out-cubic"

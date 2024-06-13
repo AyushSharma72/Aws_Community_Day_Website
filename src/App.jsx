@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Herosection from "./components/herosection";
 import Eventhighlights from "./components/eventhighlights";
+import Whyjoinus from "./components/whyjoinus";
 import About from "./components/About";
 import Speakers from "./components/Speakers";
 import Team from "./components/Team";
@@ -11,9 +12,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <Herosection />
+      <Herosection id="Home" />
       <Eventhighlights />
-      <About />
+      <About id="About" />
+      <Whyjoinus />
+      <Speakers id=""/>
+      {/* 
+   
+    
       <Speakers />
       {/* <Team />
       <Venue /> */}

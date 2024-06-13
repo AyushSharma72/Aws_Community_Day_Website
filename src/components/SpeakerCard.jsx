@@ -1,11 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { FaLinkedin } from 'react-icons/fa';
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
 function SpeakerCard(props) {
 
+    useEffect(() => {
+      AOS.init({
+        offset: 300,
+        easing: 'ease-in-sine',
+        duration: 600,
+      });
+    }, []);
   return (
  
-    <div className='flex flex-row'>
+    <div className='flex flex-row' data-aos="fade-up">
     <div class="rounded-xl overflow-hidden relative text-center p-7 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl">
     <div class="text-gray-500 group-hover:scale-105 transition-all">
       <img class="w-[95px] h-[95px] rounded" src= {props.image}/> 

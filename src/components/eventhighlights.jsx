@@ -6,7 +6,7 @@ import { TbActivityHeartbeat } from "react-icons/tb";
 import { FaPeopleGroup } from "react-icons/fa6";
 const Eventhighlights = () => {
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center bg-[#ffeab25d]">
       <div className=" flex justify-around w-full pt-20 pb-20 sm:w-full md:w-3/4  ">
         <div className="flex flex-col justify-center items-center gap-y-3">
           <p className="flex justify-center text-3xl font-bold text-[#401f71] leading-9">

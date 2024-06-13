@@ -26,7 +26,6 @@ function Navbar() {
   const checkActivePage = () => {
     document.querySelectorAll(".navbar li").forEach((activePage) => {
       if (activePage.getAttribute("name") === hash) {
-        console.log(activePage.name);
         activePage.classList.add("active");
       } else {
         activePage.classList.remove("active");

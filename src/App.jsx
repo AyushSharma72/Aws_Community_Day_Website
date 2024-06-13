@@ -16,13 +16,14 @@ function App() {
       <Eventhighlights />
       <About />
       <Whyjoinus />
-      <Speakers id=""/>
+      <Speakers />
+      <Venue />
       {/* 
    
     
-      <Speakers />
+    
       {/* <Team />
-      <Venue /> */}
+       */}
     </>
   );
 }

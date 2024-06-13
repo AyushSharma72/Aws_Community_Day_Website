@@ -8,7 +8,7 @@ function Speakers() {
         SPEAKERS
       </h1>
       <div className="flex flex-row justify-center items-center">
-        <div className="flex md:flex-row flex-wrap gap-10 md:gap-20 justify-center items-center">
+        <div className="flex md:flex-row flex-wrap gap-10 md:gap-20 justify-center items-center px-9">
           <SpeakerCard
             heading="ABC"
             about="@Senior developer"
@@ -17,7 +17,7 @@ function Speakers() {
           />
           <SpeakerCard
             heading="DIk"
-            about="In Tailwind CSS, you can apply box shadows using the built-in shadow utilities. Here are the default shadow classes provided by Tailwind CSS:"
+            about="@Senior developer"
             image="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg"
             linkedin="#"
           />

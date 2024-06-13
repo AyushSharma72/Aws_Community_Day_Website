@@ -47,7 +47,7 @@ function Navbar() {
   };
 
   const drawerList = () => (
-    <div role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+    <div role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)} className="w-[300px]">
       <List>
         {['Home', 'About', 'Speakers', 'Venue', 'Sponsers', 'Team'].map((text) => (
           <ListItem button key={text} onClick={() => Sethash(text)}>
@@ -69,7 +69,7 @@ function Navbar() {
         />
     
       {isMobile?(
-       <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer(true)} >
+       <IconButton edge="start" color="inherit" aria-label="menu"  onClick={toggleDrawer(true)} >
         <MenuIcon/>
        </IconButton>
       ):(

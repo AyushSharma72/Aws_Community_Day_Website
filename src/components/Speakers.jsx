@@ -4,7 +4,7 @@ import SpeakerCard from "./SpeakerCard";
 function Speakers() {
   return (
     <div id="Speakers">
-      <h1 className=" font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-4">
+      <h1 className=" font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-4 text-[#401f71]">
         SPEAKERS
       </h1>
       <div className="flex flex-row justify-center items-center">

@@ -70,7 +70,7 @@ function Navbar() {
         </IconButton>
       </div>
       <List className="flex flex-col gap-5">
-        {["Home", "About", "Speakers", "Venue", "Sponsers", "Team"].map(
+        {["Home", "About", "Speakers", "Sponsers", "Team", "Venue"].map(
           (text) => (
             <ListItem key={text} onClick={() => Sethash(text)}>
               <ListItemText
@@ -104,7 +104,7 @@ function Navbar() {
             </IconButton>
           ) : (
             <ul className="text-white flex gap-8 font-semibold list-none ">
-              {["Home", "About", "Speakers", "Venue", "Sponsers", "Team"].map(
+              {["Home", "About", "Speakers", "Sponsers", "Team", "Venue"].map(
                 (text) => (
                   <li
                     key={text}

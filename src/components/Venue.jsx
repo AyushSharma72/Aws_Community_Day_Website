@@ -3,8 +3,8 @@ import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 function Venue() {
   return (
-    <div className=" bg-[#ffeab25d]">
-      <div className="font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-20">
+    <div className=" bg-[#ffeab25d]  mt-20 pt-4" id="Venue">
+      <div className="font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center  Blackheadingshadow">
         VENUE
       </div>
 
@@ -15,7 +15,7 @@ function Venue() {
               <FaLocationDot className="text-xl" />
             </span>{" "}
             <p className="text-2xl font-semibold  ">Devi Ahilya University </p>{" "}
-            <span className="text-[#4300b1] text-2xl font-bold ml-1">  
+            <span className="text-[#4300b1] text-2xl font-extrabold ml-1">
               Auditorium
             </span>
           </div>

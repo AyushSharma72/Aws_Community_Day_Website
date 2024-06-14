@@ -8,7 +8,7 @@ function Speakers() {
         SPEAKERS
       </h1>
       <div className="flex flex-row justify-center items-center">
-        <div className="flex md:flex-row flex-wrap gap-10 md:gap-20 justify-center items-center px-9">
+        <div className="flex md:flex-row flex-wrap gap-10 md:gap-20 justify-center items-center ">
           <SpeakerCard
             heading="ABC"
             about="@Senior developer"

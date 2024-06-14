@@ -12,7 +12,7 @@ const Food = () => {
     },
   };
 
-  return <Lottie options={defaultOptions} height={170} width={200} />;
+  return <Lottie options={defaultOptions} height={150} width={200} />;
 };
 
 export default Food;

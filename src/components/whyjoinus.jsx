@@ -8,8 +8,8 @@ import Food from "../Animations/food";
 const Whyjoinus = () => {
   useEffect(() => {
     AOS.init({
-      offset: 200,
-      easing: "ease-in-sine",
+      offset: 300,
+
       duration: 600,
     });
   }, []);
@@ -20,8 +20,8 @@ const Whyjoinus = () => {
       </h3>
 
       <div className="w-full flex flex-col  flex-wrap items-center justify-around pt-10 pb-10  gap-y-4 md:gap-8 sm:gap-4 sm:flex-row">
-        <div data-aos="fade-zoom-in">
-          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow">
+        <div data-aos="fade-up">
+          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow h-[300px]">
             <div>
               <Sessionanimation />
             </div>
@@ -38,8 +38,8 @@ const Whyjoinus = () => {
           </div>
         </div>
 
-        <div data-aos="fade-zoom-in">
-          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow">
+        <div data-aos="fade-up">
+          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow  h-[300px]">
             <div>
               <NetworkingAnimation />
             </div>
@@ -56,9 +56,9 @@ const Whyjoinus = () => {
           </div>
         </div>
 
-        <div data-aos="fade-zoom-in">
+        <div data-aos="fade-up">
           {" "}
-          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow">
+          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow  h-[300px]">
             <div>
               <SwagsAnimation />
             </div>
@@ -74,8 +74,8 @@ const Whyjoinus = () => {
           </div>
         </div>
 
-        <div data-aos="fade-zoom-in">
-          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow">
+        <div data-aos="fade-up">
+          <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow  h-[300px]">
             <div>
               <Food />
             </div>

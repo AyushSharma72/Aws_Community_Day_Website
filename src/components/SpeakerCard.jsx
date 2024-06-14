@@ -14,7 +14,7 @@ function SpeakerCard(props) {
   return (
  
     <div className='flex flex-row border-solid border-2 border-black-500 mt-8' data-aos="fade-up">
-    <div class="rounded-xl overflow-hidden relative text-center p-10 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl  w-72 md:w-80">
+    <div class="rounded-xl overflow-hidden relative text-center p-10 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl  w-[250px] md:w-80">
     <div class="text-gray-500 group-hover:scale-105 transition-all">
       <img class=" w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded" src= {props.image}/> 
     </div>

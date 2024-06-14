@@ -37,14 +37,11 @@ html {
   cursor: pointer;
 }
 .navbar {
-  /* background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%); */
-  background-color: #401f71;
-  /* background: linear-gradient(90deg, #A531DC 0%, #4300B1 100%); */
-  /* background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%); */
-  /* background: linear-gradient(220.55deg, #565656 0%, #181818 100%); */
-  /* background: linear-gradient(220.55deg, #5D85A6 0%, #0E2C5E 100%); */
-  /* background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%); */
-  /* background: linear-gradient(220.55deg, #61C695 0%, #133114 100%); */
+}
+.navbarcolor {
+  background-color: #401f71 !important  ;
+  /* background: linear-gradient(90deg, #a531dc 0%, #4300b1 100%) !important; */
+  /* background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%) !important ; */
 }
 
 /* herosection */

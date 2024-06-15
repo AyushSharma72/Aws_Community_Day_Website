@@ -38,7 +38,7 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
-  borderTop: "1px solid rgba(0, 0, 0, .125)",
+  borderTop: "1px solid rgba(0, 0, 0, 0)",
   transition: "opacity 0.3s ease-in-out",
 }));
 
@@ -49,18 +49,20 @@ const Faq = () => {
     setExpanded(newExpanded ? panel : false);
   };
   return (
-    <div className="py-10">
+    <div className="py-10 bg-[#ffeab261]">
       <p className=" font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-4 Blackheadingshadow">
         Frequently Asked Questions
       </p>
 
-      <div className="w-2/3 flex flex-col m-auto mt-10">
+      <div className="sm:w-2/3 flex flex-col m-auto mt-10 w-full px-3">
         <Accordion
           expanded={expanded === "panel1"}
           onChange={handleChange("panel1")}
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-            <Typography>What is Aws Cloudd Club IIPS</Typography>
+            <Typography className="FaqQuestions">
+              What is Aws Cloudd Club
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -77,7 +79,9 @@ const Faq = () => {
           onChange={handleChange("panel2")}
         >
           <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-            <Typography>Collapsible Group Item #2</Typography>
+            <Typography className="FaqQuestions">
+              Collapsible Group Item #2
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -94,7 +98,9 @@ const Faq = () => {
           onChange={handleChange("panel3")}
         >
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-            <Typography>Collapsible Group Item #3</Typography>
+            <Typography className="FaqQuestions">
+              Collapsible Group Item #3
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>

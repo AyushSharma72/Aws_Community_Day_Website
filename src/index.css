@@ -142,3 +142,6 @@ html {
 .Blackheadingshadow {
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
+.FaqQuestions {
+  font-weight: 700 !important;
+}

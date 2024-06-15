@@ -20,7 +20,7 @@ const Whyjoinus = () => {
       </h3>
 
       <div className="w-full flex flex-col  flex-wrap items-center justify-around pt-10 pb-10  gap-y-4 md:gap-8 sm:gap-4 sm:flex-row">
-        <div data-aos="fade-up">
+        <div data-aos="fade-zoom-in">
           <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow h-[300px]">
             <div>
               <Sessionanimation />
@@ -38,7 +38,7 @@ const Whyjoinus = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up">
+        <div data-aos="fade-zoom-in">
           <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow  h-[300px]">
             <div>
               <NetworkingAnimation />
@@ -56,7 +56,7 @@ const Whyjoinus = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up">
+        <div data-aos="fade-zoom-in">
           {" "}
           <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow  h-[300px]">
             <div>
@@ -74,7 +74,7 @@ const Whyjoinus = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up">
+        <div data-aos="fade-zoom-in">
           <div className="flex flex-col  items-center bg-white w-64 rounded-lg p-2 cardshadow  h-[300px]">
             <div>
               <Food />

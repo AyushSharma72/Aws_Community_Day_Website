@@ -61,7 +61,7 @@ const Faq = () => {
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
             <Typography className="FaqQuestions">
-              What is Aws Cloudd Club
+              What are AWS Cloud Clubs?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>

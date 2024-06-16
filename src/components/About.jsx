@@ -21,26 +21,21 @@ function About() {
       </h2>
       <p className="text-gray-700 max-w-[900px] text-justify leading-8 m-4 text-xl md:m-0 ">
         <p className="mb-4">
-          AWS Cloud Club Community Days (formerly known as Student Symposia) are
-          one-day, student-led events where the content and logistics are owned
-          by Cloud Club Captains. Student Community Days can be in person,
-          hybrid, or fully online. Its content should suit your members,
-          focusing on AWS skills and career advice. Student Community Days are a
-          way to bring AWS learning onto campus.
+        Welcome to the AWS Student Community Day Indore, a gathering aimed at exploring the latest 
+        trends, innovations, and best practices in the world of cloud computing offered by 
+        Amazon Web Services (AWS).
         </p>
 
         <p className="mb-4">
-          The event audience is primarily Cloud Club members, but can be
-          extended to non-member students, space permitting. Students are
-          responsible for the content of the event. If needed, Captains may
-          request AWS speaker(s) for their event.
+        Our Student Community Day brings together experts, 
+        enthusiasts, and learners from various domains to delve into the advancements, strategies, 
+        and real-world applications of AWS cloud services.
         </p>
 
         <p className="mb-4">
-          The first Student Symposium was held at the Heinz College in Carnegie
-          Mellon University, and was hosted by three Cloud Club Captains for a
-          day of learning. It included two tracks: a series of guest lectures
-          and a hands-on workshop.
+        Join us for insightful sessions, 
+        engaging discussions, hands-on workshops, and networking opportunities, all 
+        tailored to expand your knowledge and proficiency in leveraging AWS solutions.
         </p>
       </p>
     </div>

@@ -32,7 +32,7 @@ const Whyjoinus = () => {
 
               <p className="text-center text-lg font-semibold " title="🤓">
                 Technical & Non Technical Sessions covering the hottest
-                developer topics in tech.
+                developer topics.
               </p>
             </div>
           </div>

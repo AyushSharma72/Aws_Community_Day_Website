@@ -3,7 +3,9 @@ import TeamCard from "./TeamCard";
 function Team() {
   return (
     <div className="flex items-center justify-center flex-col mt-9" id="Team">
-      <h1 className="text-3xl font-bold mt-6 mb-6 Blackheadingshadow">TEAM</h1>
+      <h1 className="text-3xl font-bold mt-6 mb-6 Blackheadingshadow">
+        ORGANISERS
+      </h1>
       <div className="flex flex-col md:flex-row justify-center  items-center flex-wrap gap-20">
         <TeamCard
           name="Rashi Dashore"

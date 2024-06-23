@@ -25,14 +25,14 @@ const Whyjoinus = () => {
             <div>
               <Sessionanimation />
             </div>
-            <div className="flex flex-col items-center  gap-y-2 ">
+            <div className="flex flex-col items-center   ">
               <h2 className="text-2xl font-bold" title="🤓">
                 Speaker Sessions :
               </h2>
 
               <p className="text-center text-lg font-semibold " title="🤓">
-                Technical Sessions covering the hottest developer topics in
-                tech.
+                Technical & Non Technical Sessions covering the hottest
+                developer topics.
               </p>
             </div>
           </div>

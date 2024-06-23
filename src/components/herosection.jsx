@@ -55,14 +55,14 @@ const Herosection = () => {
         </h3>
 
         <p
-          className=" text-xl  text-center font-bold flex flex-col gap-y-3 items-center  text-white textshadow tracking-wide md:flex-row sm:text-2xl"
+          className=" text-xl  text-center font-bold flex flex-col gap-y-3 gap-x-3 items-center  text-white textshadow tracking-wide md:flex-row sm:text-2xl"
           data-aos-delay="900"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
         >
           {" "}
           <span className="flex gap-3 items-center">
-            <FaCalendarDays /> 27th September 2024,{" "}
+            <FaCalendarDays /> 27th September 2024{" "}
           </span>{" "}
           <span className="flex gap-1 items-center  ">
             <FaLocationDot /> DAVV Auditorium Indore

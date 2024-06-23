@@ -1,5 +1,7 @@
 import React from "react";
 import TeamCard from "./TeamCard";
+import ContributorList from "./ContributorList";
+
 function Team() {
   return (
     <div className="flex items-center justify-center flex-col mt-9" id="Team">
@@ -24,6 +26,8 @@ function Team() {
           image="https://images.pexels.com/photos/697259/pexels-photo-697259.jpeg?cs=srgb&dl=pexels-hieu-697259.jpg&fm=jpg"
         />
       </div>
+
+   <ContributorList/>
     </div>
   );
 }

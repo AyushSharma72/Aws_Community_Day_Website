@@ -24,6 +24,8 @@ function ContributorList() {
 
       
       <Contributor name= "ABC" position = "Xyz" linkedin = "#" image = 'https://cdn.pixabay.com/photo/2024/05/02/12/14/ai-generated-8734608_640.jpg'/>
+
+      <Contributor name= "ABC" position = "Xyz" linkedin = "#" image = 'https://cdn.pixabay.com/photo/2024/05/02/12/14/ai-generated-8734608_640.jpg'/>
     </div>
 </>
 

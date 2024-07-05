@@ -20,6 +20,15 @@ function Navbar() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
+  const checkActivePage = () => {
+    document.querySelectorAll(".navbar li").forEach((activePage) => {
+      if (activePage.getAttribute("name") === hash) {
+        activePage.classList.add("active");
+      } else {
+        activePage.classList.remove("active");
+      }
+    });
+  };
   const handleNavLinkClick = () => {
     const targetId = hash;
     const targetElement = document.getElementById(targetId);
@@ -30,16 +39,6 @@ function Navbar() {
         behavior: "smooth",
       });
     }
-  };
-
-  const checkActivePage = () => {
-    document.querySelectorAll(".navbar li").forEach((activePage) => {
-      if (activePage.getAttribute("name") === hash) {
-        activePage.classList.add("active");
-      } else {
-        activePage.classList.remove("active");
-      }
-    });
   };
 
   useEffect(() => {

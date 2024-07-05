@@ -3,7 +3,7 @@ import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 function Venue() {
   return (
-    <div className=" bg-[#ffeab25d]  mt-20 pt-4" id="Venue">
+    <div className=" bg-[#ffeab25d]   pt-4" id="Venue">
       <div className="font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center  Blackheadingshadow">
         VENUE
       </div>

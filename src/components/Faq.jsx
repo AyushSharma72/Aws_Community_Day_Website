@@ -49,7 +49,7 @@ const Faq = () => {
     setExpanded(newExpanded ? panel : false);
   };
   return (
-    <div className="py-10 bg-[#ffeab261]">
+    <div className="py-10 ">
       <p className=" font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-4 Blackheadingshadow">
         Frequently Asked Questions
       </p>
@@ -66,11 +66,9 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              The AWS Cloud Club is a student organization dedicated to
+              promoting knowledge and skills related to cloud computing using
+              Amazon Web Services (AWS).
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -80,16 +78,14 @@ const Faq = () => {
         >
           <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
             <Typography className="FaqQuestions">
-              Collapsible Group Item #2
+              What activities does AWS Cloud Club at IGDTUW organize?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              AWS Cloud Club organizes workshops, seminars, hackathons, and
+              other events to help students learn about AWS services, cloud
+              computing concepts, and real-world applications.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -99,16 +95,32 @@ const Faq = () => {
         >
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
             <Typography className="FaqQuestions">
-              Collapsible Group Item #3
+              What are the benefits of joining AWS Cloud Club?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Joining AWS Cloud Club provides opportunities to enhance your
+              cloud computing skills, network with industry professionals, and
+              participate in hands-on projects.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel4"}
+          onChange={handleChange("panel4")}
+        >
+          <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+            <Typography className="FaqQuestions">
+              Are there any prerequisites for joining AWS Cloud Club ?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              No specific prerequisites are required for joining AWS Cloud Club
+              . Students from all disciplines with an interest in cloud
+              computing are encouraged to participate.
             </Typography>
           </AccordionDetails>
         </Accordion>

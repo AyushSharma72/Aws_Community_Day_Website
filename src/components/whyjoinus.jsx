@@ -1,9 +1,13 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import Sessionanimation from "../Animations/SessionAnimation";
-import NetworkingAnimation from "../Animations/networking";
-import SwagsAnimation from "../Animations/SwagsAnimation";
-import Food from "../Animations/food";
+const Sessionanimation = React.lazy(
+  () => import("../Animations/SessionAnimation")
+);
+const NetworkingAnimation = React.lazy(
+  () => import("../Animations/networking")
+);
+const SwagsAnimation = React.lazy(() => import("../Animations/SwagsAnimation"));
+const Food = React.lazy(() => import("../Animations/food"));
 
 const Whyjoinus = () => {
   useEffect(() => {
@@ -14,7 +18,7 @@ const Whyjoinus = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col justify-center items-center purplegradient mt-3">
+    <div className="flex flex-col justify-center items-center purplegradient mt-3 py-10">
       <h3 className="text-4xl textshadow text-white font-bold mt-3">
         Why Attend ?
       </h3>
@@ -25,6 +29,7 @@ const Whyjoinus = () => {
             <div>
               <Sessionanimation />
             </div>
+            <hr></hr>
             <div className="flex flex-col items-center   ">
               <h2 className="text-2xl font-bold" title="🤓">
                 Speaker Sessions :

@@ -16,7 +16,7 @@ const Herosection = () => {
   }, []);
   return (
     <div
-      className="flex  purplegradient  flex-col p-2  space-y-7  mt-[96px]"
+      className="flex  purplegradient  flex-col py-5  space-y-7  mt-[96px]"
       id="Home"
     >
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">
@@ -62,7 +62,7 @@ const Herosection = () => {
         >
           {" "}
           <span className="flex gap-3 items-center">
-            <FaCalendarDays /> 27th September 2024{" "}
+            <FaCalendarDays /> 22th September 2024{" "}
           </span>{" "}
           <span className="flex gap-1 items-center  ">
             <FaLocationDot /> DAVV Auditorium Indore
@@ -77,15 +77,23 @@ const Herosection = () => {
         data-aos-delay="1200"
         data-aos-easing="ease-out-cubic"
       >
-        <button className="button mt-4 mb-9 w-[160px] md:w-[160px] sm:w-[160px] lg:w-[160px] xl:w-[160px]  2xl:w-[160px]">
-          Register Now
-          <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
-            <path
-              clip-rule="evenodd"
-              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
-              fill-rule="evenodd"
-            ></path>
-          </svg>
+        <button className="button p-2 py-3">
+          <p className="button-text">Register Now</p>
+
+          <p className="iconer">
+            <svg
+              height={24}
+              width={24}
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                fill="currentColor"
+              />
+            </svg>
+          </p>
         </button>
       </div>
     </div>

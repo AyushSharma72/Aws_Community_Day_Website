@@ -12,7 +12,7 @@ function About() {
 
   return (
     <div
-      className="flex flex-col justify-center items-center flex-wrap"
+      className="flex flex-col justify-center items-center flex-wrap py-8"
       data-aos="fade-zoom-in"
       id="About"
     >

@@ -1,5 +1,5 @@
 import Lottie from "react-lottie";
-
+import React from "react";
 import animationData from "../assets/food.json";
 
 const Food = () => {

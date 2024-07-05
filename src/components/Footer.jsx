@@ -17,7 +17,10 @@ const Footer = () => {
           <FaSquareInstagram className="text-white text-2xl" />
         </a>
 
-        <a href="https://www.linkedin.com/groups/9351190/" target="blank">
+        <a
+          href="https://www.linkedin.com/company/aws-student-community-day-indore/posts/?feedView=all"
+          target="blank"
+        >
           {" "}
           <FaLinkedin className="text-white text-2xl" />
         </a>
@@ -27,14 +30,14 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <p className="text-lg  text-center font-bold  text-white textshadow tracking-wide ">
+        <p className="text-md  text-center font-bold  text-white textshadow tracking-wide ">
           Designed And Developed By{" "}
           <a
             href="www.linkedin.com/in/ayush-sharma-a155a8267"
             target="blank"
             className="text-blue-500"
           >
-            Ayush Sharma
+            Ayush
           </a>{" "}
           &{" "}
           <a
@@ -42,7 +45,7 @@ const Footer = () => {
             target="blank"
             className="text-blue-500"
           >
-            Diksha Gupta
+            Diksha
           </a>{" "}
         </p>
       </div>

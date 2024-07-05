@@ -6,6 +6,9 @@ html {
   scroll-behavior: smooth;
   font-family: sans-serif;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 /* utitliy */
 
 .purplegradient {
@@ -16,7 +19,7 @@ html {
   color: #ffebb2;
 }
 
-.navbar li::after {
+.navbar a::after {
   content: "";
   display: block;
   width: 0;
@@ -25,23 +28,19 @@ html {
   transition: width 0.5s;
 }
 
-.navbar li:hover::after {
+.navbar a:hover::after {
   width: 100%;
 }
-.navbar li:hover {
+.navbar a:hover {
   color: #ffebb2;
   transition: color 0.5s;
 }
-.navbar li {
+.navbar a {
   list-style-type: none;
   cursor: pointer;
 }
 .navbar {
-}
-.navbarcolor {
   background-color: #401f71 !important  ;
-  /* background: linear-gradient(90deg, #a531dc 0%, #4300b1 100%) !important; */
-  /* background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%) !important ; */
 }
 
 /* herosection */

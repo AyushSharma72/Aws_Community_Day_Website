@@ -30,7 +30,6 @@ function Team() {
           image={Akash}
         />
       </div>
-
       {/* <ContributorList/> */}
     </div>
   );

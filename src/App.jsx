@@ -21,7 +21,7 @@ function App() {
       <Whyjoinus />
       {/* <Speakers /> */}
       <Sponsers />
-      {/* <Team /> */}
+      <Team />
       <Venue />
       <Faq />
       <Footer />

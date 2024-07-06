@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-const Sessionanimation = React.lazy(
-  () => import("../Animations/SessionAnimation")
+const Sessionanimation = React.lazy(() =>
+  import("../Animations/SessionAnimation")
 );
-const NetworkingAnimation = React.lazy(
-  () => import("../Animations/networking")
+const NetworkingAnimation = React.lazy(() =>
+  import("../Animations/networking")
 );
 const SwagsAnimation = React.lazy(() => import("../Animations/SwagsAnimation"));
 const Food = React.lazy(() => import("../Animations/food"));
@@ -12,8 +12,7 @@ const Food = React.lazy(() => import("../Animations/food"));
 const Whyjoinus = () => {
   useEffect(() => {
     AOS.init({
-      offset: 300,
-
+      offset: 100,
       duration: 600,
     });
   }, []);

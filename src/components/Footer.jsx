@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-center gap-x-3">
         <a
-          href="https://www.instagram.com/aws_cloudclub_iips?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          href="https://www.instagram.com/scdindore?igsh=MXVkcm5kNG9yYXVpZw=="
           target="blank"
         >
           {" "}
@@ -24,7 +24,10 @@ const Footer = () => {
           {" "}
           <FaLinkedin className="text-white text-2xl" />
         </a>
-        <a href="https://x.com/home" target="blank">
+        <a
+          href="https://x.com/aws_studen78471?t=PNZ5vQhCZTdd-maCCju6PQ&s=09"
+          target="blank"
+        >
           {" "}
           <FaTwitterSquare className="text-white text-2xl" />
         </a>

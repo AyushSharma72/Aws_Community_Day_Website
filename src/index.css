@@ -14,6 +14,7 @@ body::-webkit-scrollbar {
 .purplegradient {
   background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%);
 }
+
 /* navabar */
 .active {
   color: #ffebb2;
@@ -107,4 +108,7 @@ body::-webkit-scrollbar {
 }
 .FaqQuestions {
   font-weight: 700 !important;
+}
+.sponserCardShadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

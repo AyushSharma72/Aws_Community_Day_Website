@@ -35,11 +35,11 @@ const Sponsers = () => {
         <h3 className="text-2xl textshadow text-white font-bold mt-3 text-center">
           Why Sponser Us ?
         </h3>
-        <div className="flex justify-around mt-2">
+        <div className="flex justify-around mt-2 flex-wrap gap-x-3 px-2 gap-y-4">
           {/* card 1 */}
-          <div className="bg-white flex flex-col w-[21%] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center  hover:-translate-y-2 duration-300">
+          <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center  hover:-translate-y-2 duration-300">
             <BsRocketFill className="text-3xl " />
-            <p className="font-bold leading-7 mt-3 text-center">
+            <p className="font-bold  mt-3 text-center">
               Boost brand visibility and recognition:
             </p>
             <p className="font-medium text-center ">
@@ -50,9 +50,9 @@ const Sponsers = () => {
           </div>
           {/* card 2 */}
 
-          <div className="bg-white flex flex-col w-[21%] sponserCardShadow p-3 rounded-lg cursor-pointer   items-center hover:-translate-y-2 duration-300">
+          <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer   items-center hover:-translate-y-2 duration-300">
             <HiOutlineSpeakerphone className="text-3xl " />
-            <p className="font-bold leading-7 mt-3">
+            <p className="font-bold  mt-3  text-center">
               Special shoutouts during the event:
             </p>
             <p className="font-medium text-center">
@@ -63,9 +63,9 @@ const Sponsers = () => {
           </div>
           {/* card 3 */}
 
-          <div className="bg-white flex flex-col w-[21%] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center hover:-translate-y-2 duration-300">
+          <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center hover:-translate-y-2 duration-300">
             <MdGroups className="text-3xl " />
-            <p className="font-bold leading-7 mt-3">
+            <p className="font-bold  mt-3 text-center">
               Targeted Audience Engagement:
             </p>
             <p className="font-medium text-center">
@@ -75,7 +75,7 @@ const Sponsers = () => {
           </div>
           {/* card 4 */}
 
-          <div className="bg-white flex flex-col w-[21%]  sponserCardShadow p-3 rounded-lg cursor-pointer  items-center hover:-translate-y-2 duration-300">
+          <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center hover:-translate-y-2 duration-300">
             <FaHandshake className="text-3xl " />
             <p className="font-bold  mt-3 text-center">
               Access to Exclusive Networking Opportunities:

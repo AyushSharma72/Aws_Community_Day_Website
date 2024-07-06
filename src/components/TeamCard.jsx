@@ -3,10 +3,10 @@ import { FaLinkedin } from "react-icons/fa";
 // import "./Team.css";
 function TeamCard(props) {
   return (
-    <figure class="flex flex-col md:flex-row bg-slate-100 rounded-xl px-0 py-8 md:p-0 w-[340px] md:w-[420px] h-[480px] md:h-[300px]">
+    <figure class="flex flex-col md:flex-row bg-slate-100 rounded-xl px-0 py-8 md:p-0 w-[300px] md:w-[420px] h-[480px] md:h-[300px]">
       <img
         src={props.image}
-        className="m-auto w-[80%] md:w-[60%] h-full captianImg p-2 rounded-2xl"
+        className="m-auto w-[90%] md:w-[60%] h-full captianImg p-2 rounded-2xl"
       />
 
       <div className="flex ">

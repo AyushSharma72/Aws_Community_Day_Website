@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
 }
 
 .iconer {
-  transform: translateY(35px);
+  transform: translateX(35px);
   transition-duration: 0.3s;
 }
 

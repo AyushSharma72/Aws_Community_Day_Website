@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "./TeamCard";
-import ContributorList from "./ContributorList";
+// import ContributorList from "./ContributorList";
 import Akash from "../assets/Captian/Akash.jpg";
 import Rashi from "../assets/Captian/RashiDashore.jpg";
 import Shivendra from "../assets/Captian/Shivendra.jpg";
@@ -10,7 +10,7 @@ function Team() {
       <h1 className="text-3xl font-bold mt-6 mb-6 Blackheadingshadow">
         ORGANISERS
       </h1>
-      <div className="flex flex-col md:flex-row justify-center  items-center flex-wrap gap-20">
+      <div className="flex flex-col md:flex-row justify-center gap-y-10 items-center flex-wrap md:gap-20 ">
         <TeamCard
           name="Shivendra Pratap"
           place="AWS Cloud Captain Medi-caps University Indore"

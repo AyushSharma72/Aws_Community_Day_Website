@@ -13,7 +13,7 @@ function Team() {
       <div className="flex flex-col md:flex-row justify-center  items-center flex-wrap gap-20">
         <TeamCard
           name="Shivendra Pratap"
-          place="AWS Cloud Captain Medi-caps University"
+          place="AWS Cloud Captain Medi-caps University Indore"
           linkedin="https://www.linkedin.com/in/shivendra-pratap-singh-patel-0967a1224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           image={Shivendra}
         />

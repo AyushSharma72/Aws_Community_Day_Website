@@ -1,6 +1,6 @@
 import React from "react";
 import { BsRocketFill } from "react-icons/bs";
-import { HiOutlineSpeakerphone } from "react-icons/hi";
+import { HiSpeakerphone } from "react-icons/hi";
 import { MdGroups } from "react-icons/md";
 import { FaHandshake } from "react-icons/fa";
 const Sponsers = () => {
@@ -38,7 +38,7 @@ const Sponsers = () => {
         <div className="flex justify-around mt-2 flex-wrap gap-x-3 px-2 gap-y-4">
           {/* card 1 */}
           <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center  hover:-translate-y-2 duration-300">
-            <BsRocketFill className="text-3xl " />
+            <BsRocketFill className="text-3xl text-[#401f71]" />
             <p className="font-bold  mt-3 text-center">
               Boost brand visibility and recognition:
             </p>
@@ -51,7 +51,7 @@ const Sponsers = () => {
           {/* card 2 */}
 
           <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer   items-center hover:-translate-y-2 duration-300">
-            <HiOutlineSpeakerphone className="text-3xl " />
+            <HiSpeakerphone className="text-3xl  text-[#401f71]" />
             <p className="font-bold  mt-3  text-center">
               Special shoutouts during the event:
             </p>
@@ -64,7 +64,7 @@ const Sponsers = () => {
           {/* card 3 */}
 
           <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center hover:-translate-y-2 duration-300">
-            <MdGroups className="text-3xl " />
+            <MdGroups className="text-3xl text-[#401f71] " />
             <p className="font-bold  mt-3 text-center">
               Targeted Audience Engagement:
             </p>
@@ -76,7 +76,7 @@ const Sponsers = () => {
           {/* card 4 */}
 
           <div className="bg-white flex flex-col w-[290px] sponserCardShadow p-3 rounded-lg cursor-pointer  items-center hover:-translate-y-2 duration-300">
-            <FaHandshake className="text-3xl " />
+            <FaHandshake className="text-3xl text-[#401f71] " />
             <p className="font-bold  mt-3 text-center">
               Access to Exclusive Networking Opportunities:
             </p>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contributor.css'
-import imagess from '../assets/profile.jpeg'
+
 function Contributor(props) {
   return (
    <>
@@ -10,7 +10,7 @@ function Contributor(props) {
     <div class="card__content">
       <p class="card__title">{props.name}</p>
       <p class="card__description">{props.position}</p>
-      <a href= {props.linkedin} target='_blank'><i className="fa-brands fa-linkedin text-blue-700 text-3xl pl-14 mt-3"></i></a>
+      <a href= {props.linkedin} target='_blank'><i className="fa-brands fa-linkedin text-blue-700 text-3xl pl-14"></i></a>
     </div>
   </div>
    </>

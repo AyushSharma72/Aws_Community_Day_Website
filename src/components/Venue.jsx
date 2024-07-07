@@ -12,7 +12,7 @@ function Venue() {
         {/* address */}
         <div className=" flex flex-col items-center justify-center px-3 purplegradient sm:h-[180px] sm:gap-y-1 h-[280px] gap-y-1 text-white rounded-lg ">
           <p className="font-semibold text-center  locationtext">
-            Aws Community Day At
+            AWS Student Community Day At
           </p>
           <p className="text-2xl font-semibold flex items-center gap-1 justify-center text-center  locationtext">
             {" "}

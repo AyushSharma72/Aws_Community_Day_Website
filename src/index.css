@@ -112,3 +112,12 @@ body::-webkit-scrollbar {
 .captianImg {
   aspect-ratio: 1;
 }
+
+@media (max-width: 320px) {
+  .teamcardwidth {
+    width: 280px !important;
+  }
+  .locationtext {
+    font-size: 20px !important;
+  }
+}

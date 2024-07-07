@@ -6,7 +6,7 @@ import Whyjoinus from "./components/whyjoinus";
 import About from "./components/About";
 import Sponsers from "./components/Sponsers";
 import Speakers from "./components/Speakers";
-import Team from "./components/Team";
+import TeamList from "./components/Team/TeamList";
 import Venue from "./components/Venue";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
@@ -33,7 +33,7 @@ function App() {
           <Whyjoinus />
           {/* <Speakers /> */}
           <Sponsers />
-          <Team />
+          <TeamList />
           <Venue />
           <Faq />
           <Footer />

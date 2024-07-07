@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AWSImage from "../assets/navbarlogo2.png";
+import AWSImage from "../assets/logos/navbarlogo2.png";
 import { FaMicrophone } from "react-icons/fa";
 import { FaHandshake } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
@@ -135,7 +135,7 @@ const Header = () => {
               }}
               name="Sponsers"
             >
-              Sponsers
+              Sponsors
             </a>
             <a
               onClick={() => {

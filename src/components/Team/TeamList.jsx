@@ -1,10 +1,11 @@
 import React from "react";
 import TeamCard from "./TeamCard";
 // import ContributorList from "./ContributorList";
-import Akash from "../assets/Captian/Akash.jpg";
-import Rashi from "../assets/Captian/RashiDashore.jpg";
-import Shivendra from "../assets/Captian/Shivendra.jpg";
-function Team() {
+import Akash from "../../assets/Captian/Akash.jpg";
+import Rashi from "../../assets/Captian/RashiDashore.jpg";
+import Shivendra from "../../assets/Captian/Shivendra.jpg";
+
+function TeamList() {
   return (
     <div className="flex items-center justify-center flex-col py-9" id="Team">
       <h1 className="text-3xl font-bold mt-6 mb-6 Blackheadingshadow">
@@ -35,4 +36,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default TeamList;

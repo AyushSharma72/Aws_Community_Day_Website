@@ -10,7 +10,7 @@ function Venue() {
 
       <div className=" sm:gap-y-10 flex  flex-wrap justify-center items-center gap-x-10 mt-7 py-10 gap-y-10 mx-2 ">
         {/* address */}
-        <div className=" flex flex-col items-center justify-center px-3 purplegradient sm:h-[180px] sm:gap-y-1 h-[280px] gap-y-1 text-white rounded-lg ">
+        <div className=" flex flex-col items-center justify-center px-3 purplegradient sm:h-[200px] sm:gap-y-1 h-[280px] gap-y-1 text-white rounded-lg ">
           <p className="font-semibold text-center  locationtext">
             AWS Student Community Day at
           </p>

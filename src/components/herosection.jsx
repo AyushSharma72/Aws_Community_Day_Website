@@ -16,7 +16,7 @@ const Herosection = () => {
   }, []);
   return (
     <div
-      className="flex  purplegradient  flex-col py-5  space-y-7  md:mt-[96px] md:py-7  mt-[90px]"
+      className="flex  purplegradient  flex-col py-10  space-y-7  md:mt-[96px] md:py-7  mt-[90px] "
       id="Home"
     >
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">

@@ -6,7 +6,7 @@ function TeamCard(props) {
     <figure
       className={`flex flex-col md:flex-row bg-slate-100 rounded-xl px-0 py-8 md:p-0 w-[320px] md:w-[420px] h-[480px] md:h-[300px] teamcardwidth ${props.className}`}
     >
-      <a className="md:w-[60%] p-1" href={props.linkedin}>
+      <a className="md:w-[60%] p-1" href={props.linkedin} target="blank">
         <img src={props.image} className=" h-full captianImg  rounded-2xl" />
       </a>
 

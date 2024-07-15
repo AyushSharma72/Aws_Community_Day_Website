@@ -11,6 +11,8 @@ import Venue from "./components/Venue";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
+import SocialIcons from "./components/SocialIcons";
+
 function App() {
   const [loading, Setloading] = useState(true);
   useEffect(() => {
@@ -37,6 +39,7 @@ function App() {
           <Venue />
           <Faq />
           <Footer />
+          <SocialIcons />
         </>
       )}
     </>

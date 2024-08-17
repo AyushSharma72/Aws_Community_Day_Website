@@ -16,16 +16,16 @@ function SpeakerCard(props) {
       className="flex flex-row border-solid border-2 border-black-500 mt-8"
       data-aos="fade-zoom-in"
     >
-      <div class="rounded-xl overflow-hidden relative text-center p-10 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl  w-[250px] md:w-80">
+      <div class="rounded-xl overflow-hidden relative text-center p-10 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl  w-[250px] md:w-72">
         <div class="text-gray-500 group-hover:scale-105 transition-all">
           <img
-            class=" w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded"
+            class=" w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded"
             src={props.image}
           />
         </div>
         <div class="group-hover:pb-10 transition-all duration-500 delay-200">
-          <h1 class="font-semibold text-gray-700">{props.heading}</h1>
-          <p class="text-gray-500 text-justify text-sm">{props.about}</p>
+          <h1 class="font-semibold text-gray-700 pt-2">{props.heading}</h1>
+          <p class="text-gray-500 text-justify text-sm pt-1">{props.about}</p>
         </div>
         <div class="flex items-center transition-all duration-500 delay-200 group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full cursor-pointer">
           <div class="flex gap-3 text-2xl bg-gray-700 text-white p-1 hover:p-2 transition-all duration-500 delay-200 rounded shadow-sm">

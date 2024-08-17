@@ -33,7 +33,7 @@ function App() {
           <Eventhighlights />
           <About />
           <Whyjoinus />
-          {/* <Speakers /> */}
+          <Speakers />
           <Sponsers />
           <TeamList />
           <Venue />

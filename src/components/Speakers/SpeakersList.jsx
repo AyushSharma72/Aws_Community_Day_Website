@@ -8,7 +8,7 @@ import chirag from "../../assets/Speakers/chirag.png";
 function SpeakersList() {
   return (
     <div id="Speakers">
-      <h1 className=" font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-4 Blackheadingshadow">
+      <h1 className=" font-[Poppins, sans-serif] leading-10 text-3xl font-bold text-center mt-4 mb-4 Blackheadingshadow">
         SPEAKERS
       </h1>
       <div className="flex flex-row justify-center items-center">

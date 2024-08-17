@@ -13,13 +13,13 @@ function SpeakerCard(props) {
 
   return (
     <div
-      className="flex flex-row border-solid border-2 border-black-500 mt-8"
+      className="flex flex-row border-solid border-2 border-black-500 mt-2 "
       data-aos="fade-zoom-in"
     >
-      <div class="rounded-xl overflow-hidden relative text-center p-10 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl  w-[250px] md:w-72">
+      <div class="rounded-xl overflow-hidden relative text-center p-8 sm:p-10 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl  w-[250px] md:w-72">
         <div class="text-gray-500 group-hover:scale-105 transition-all">
           <img
-            class=" w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded"
+            class=" w-[180px] h-[180px] md:w-[200px] md:h-[200px] rounded"
             src={props.image}
           />
         </div>

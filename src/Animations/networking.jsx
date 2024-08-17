@@ -1,6 +1,6 @@
 import Lottie from "react-lottie";
 
-import animationData from "../assets/networking.json";
+import animationData from "../assets/Animations/networking.json";
 
 const NetworkingAnimation = () => {
   const defaultOptions = {

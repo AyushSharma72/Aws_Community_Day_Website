@@ -1,6 +1,6 @@
 import Lottie from "react-lottie";
 
-import animationData from "../assets/swagsanim.json";
+import animationData from "../assets/Animations/swagsanim.json";
 
 const SwagsAnimation = () => {
   const defaultOptions = {

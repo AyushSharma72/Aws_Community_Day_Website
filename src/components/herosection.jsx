@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AwsLogo from "../assets/AWS_logo_RGB_WHT.png";
+import AwsLogo from "../assets/logos/AWS_logo_RGB_WHT.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaCalendarDays } from "react-icons/fa6";
@@ -16,7 +16,7 @@ const Herosection = () => {
   }, []);
   return (
     <div
-      className="flex  purplegradient  flex-col py-5  space-y-7  md:mt-[96px] md:py-7  mt-[90px]"
+      className="flex  purplegradient  flex-col py-10  space-y-7  md:mt-[96px] md:py-7  mt-[90px] "
       id="Home"
     >
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">
@@ -62,7 +62,10 @@ const Herosection = () => {
         >
           {" "}
           <span className="flex gap-3 items-center">
-            <FaCalendarDays /> 22th September 2024{" "}
+            <FaCalendarDays />{" "}
+            <span>
+              26<sup>th</sup> September 2024{" "}
+            </span>
           </span>{" "}
           <span className="flex gap-1 items-center  ">
             <FaLocationDot /> DAVV Auditorium Indore
@@ -77,24 +80,26 @@ const Herosection = () => {
         data-aos-delay="1200"
         data-aos-easing="ease-out-cubic"
       >
-        <button className="button p-2 py-3">
-          <p className="button-text">Register Now</p>
+        <a href="https://forms.gle/zt3oqQpcFy1GUYf67" target="blank">
+          <button className="button p-2 py-3">
+            <p className="button-text">Register Now</p>
 
-          <p className="iconer">
-            <svg
-              height={24}
-              width={24}
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                fill="currentColor"
-              />
-            </svg>
-          </p>
-        </button>
+            <p className="iconer">
+              <svg
+                height={24}
+                width={24}
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                  fill="currentColor"
+                />
+              </svg>
+            </p>
+          </button>
+        </a>
       </div>
     </div>
   );

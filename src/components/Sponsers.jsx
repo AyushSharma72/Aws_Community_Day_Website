@@ -7,7 +7,7 @@ const Sponsers = () => {
   return (
     <div id="Sponsers" className="pt-8 flex flex-col items-center gap-y-3 ">
       <h2 className="leading-10 text-3xl font-bold text-center  Blackheadingshadow">
-        Call For Sponsers
+        Call For Sponsors
       </h2>
       <p className=" text-xl font-bold text-center  ">
         Intrested in sponsorship ?
@@ -33,7 +33,7 @@ const Sponsers = () => {
 
       <div className="flex flex-col w-full gap-y-3 py-3 purplegradient pb-8 ">
         <h3 className="text-2xl textshadow text-white font-bold mt-3 text-center">
-          Why Sponser Us ?
+          Why Sponsor Us ?
         </h3>
         <div className="flex justify-around mt-2 flex-wrap gap-x-3 px-2 gap-y-4">
           {/* card 1 */}

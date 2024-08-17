@@ -1,6 +1,6 @@
 import Lottie from "react-lottie";
 
-import animationData from "../assets/session.json";
+import animationData from "../assets/Animations/session.json";
 
 const SessionAnimation = () => {
   const defaultOptions = {

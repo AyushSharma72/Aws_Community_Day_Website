@@ -36,7 +36,7 @@ const Footer = () => {
         <p className="text-md  text-center font-bold  text-white textshadow tracking-wide ">
           Designed And Developed By{" "}
           <a
-            href="www.linkedin.com/in/ayush-sharma-a155a8267"
+            href="https://www.linkedin.com/in/ayush-sharma-a155a8267"
             target="blank"
             className="text-blue-500"
           >

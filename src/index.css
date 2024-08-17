@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
 }
 
 .iconer {
-  transform: translateY(35px);
+  transform: translateX(35px);
   transition-duration: 0.3s;
 }
 
@@ -111,4 +111,13 @@ body::-webkit-scrollbar {
 }
 .captianImg {
   aspect-ratio: 1;
+}
+
+@media (max-width: 320px) {
+  .teamcardwidth {
+    width: 280px !important;
+  }
+  .locationtext {
+    font-size: 20px !important;
+  }
 }

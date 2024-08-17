@@ -124,6 +124,24 @@ const Faq = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel5"}
+          onChange={handleChange("panel5")}
+        >
+          <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+            <Typography className="FaqQuestions">
+              Can beginners join AWS Cloud Club ?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Yes, AWS Cloud Club welcomes students of all skill levels,
+              including beginners who are interested in learning about cloud
+              computing and AWS services.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
       </div>
     </div>
   );

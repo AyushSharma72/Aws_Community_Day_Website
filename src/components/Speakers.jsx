@@ -1,6 +1,9 @@
 import React from "react";
 import SpeakerCard from "./SpeakerCard";
-
+import stephen from '../assets/Speakers/stephen.png'
+import ramneek from '../assets/Speakers/ramneek.png'
+import surabhi from '../assets/Speakers/surabhi.png'
+import chirag from '../assets/Speakers/chirag.png'
 function Speakers() {
   return (
     <div id="Speakers">
@@ -10,53 +13,29 @@ function Speakers() {
       <div className="flex flex-row justify-center items-center">
         <div className="flex md:flex-row flex-wrap gap-10 md:gap-20 justify-center items-center ">
           <SpeakerCard
-            heading="ABC"
-            about="@Senior developer"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW85F3Ujr5LIdcYWTutZSuEYzS17M0TG1B5A&s"
-            linkedin="#"
+            heading="Stephen Howell" 
+            about="Academic Developer Advocate AWS"
+            image={stephen}
+            linkedin="https://www.linkedin.com/in/stephenrichardhowell/"
           />
           <SpeakerCard
-            heading="DIk"
-            about="@Senior developer"
-            image="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg"
-            linkedin="#"
+            heading="Ramneek Kalra"
+            about= "Cloud Support Engineer AWS"
+            image= {ramneek}
+            linkedin="https://www.linkedin.com/in/ramneekkalra/"
           />
           <SpeakerCard
-            heading="ABC"
-            about="@Senior developer"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW85F3Ujr5LIdcYWTutZSuEYzS17M0TG1B5A&s"
-            linkedin="#"
+            heading="Surabhi Jain"
+            about="Cloud Support Engineer - Linux AWS"
+            image= {surabhi}
+            linkedin="https://www.linkedin.com/in/surabhijainabd/"
           />
           <SpeakerCard
-            heading="ABC"
-            about="@Senior developer"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW85F3Ujr5LIdcYWTutZSuEYzS17M0TG1B5A&s"
-            linkedin="#"
+            heading="Chirag Oswal"
+            about="Technical Account Manager AWS"
+            image={chirag}
+            linkedin="https://www.linkedin.com/in/chiragoswal/"
           />
-          <SpeakerCard
-            heading="ABC"
-            about="@Senior developer"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW85F3Ujr5LIdcYWTutZSuEYzS17M0TG1B5A&s"
-            linkedin="#"
-          />
-          <SpeakerCard
-            heading="DIk"
-            about="@Junior developer"
-            image="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg"
-            linkedin="#"
-          />
-          {/* <SpeakerCard
-            heading="ABC"
-            about="@Senior developer"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW85F3Ujr5LIdcYWTutZSuEYzS17M0TG1B5A&s"
-            linkedin="#"
-          />
-          <SpeakerCard
-            heading="ABC"
-            about="@Senior developer"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW85F3Ujr5LIdcYWTutZSuEYzS17M0TG1B5A&s"
-            linkedin="#"
-          /> */}
         </div>
       </div>
     </div>

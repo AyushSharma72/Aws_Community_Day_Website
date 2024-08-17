@@ -19,7 +19,7 @@ function App() {
       <Eventhighlights />
       <About />
       <Whyjoinus />
-      {/* <Speakers /> */}
+      <Speakers />
       <Sponsers />
       <Team />
       <Venue />

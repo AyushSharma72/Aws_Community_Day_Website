@@ -10,7 +10,7 @@ function SpeakerCard(props) {
       duration: 600,
     });
   }, []);
-  
+
   return (
     <div
       className="flex flex-row border-solid border-2 border-black-500 mt-8"
@@ -25,7 +25,7 @@ function SpeakerCard(props) {
         </div>
         <div class="group-hover:pb-10 transition-all duration-500 delay-200">
           <h1 class="font-semibold text-gray-700 pt-2">{props.heading}</h1>
-          <p class="text-gray-500 text-justify text-sm pt-1">{props.about}</p>
+          <p class="text-gray-500  text-sm pt-1 text-center">{props.about}</p>
         </div>
         <div class="flex items-center transition-all duration-500 delay-200 group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full cursor-pointer">
           <div class="flex gap-3 text-2xl bg-gray-700 text-white p-1 hover:p-2 transition-all duration-500 delay-200 rounded shadow-sm">

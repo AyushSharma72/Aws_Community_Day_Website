@@ -7,12 +7,13 @@ const NetworkingAnimation = React.lazy(() =>
   import("../Animations/networking")
 );
 const SwagsAnimation = React.lazy(() => import("../Animations/SwagsAnimation"));
+
 const Food = React.lazy(() => import("../Animations/food"));
 
 const Whyjoinus = () => {
   useEffect(() => {
     AOS.init({
-      offset: 100,
+      offset: 200,
       duration: 600,
     });
   }, []);

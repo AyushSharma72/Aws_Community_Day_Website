@@ -78,7 +78,7 @@ const Header = () => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      const yOffset = -100; // Offset value in pixels
+      const yOffset = -110; // Offset value in pixels
       const yPosition =
         element.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: yPosition, behavior: "smooth" });
@@ -121,8 +121,8 @@ const Header = () => {
             </a>
             <a
               onClick={() => {
-                scrollToSection(" Speakers");
-                setHash(" Speakers");
+                scrollToSection("Speakers");
+                setHash("Speakers");
               }}
               name=" Speakers"
             >

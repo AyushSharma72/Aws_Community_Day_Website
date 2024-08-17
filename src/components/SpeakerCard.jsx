@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 function SpeakerCard(props) {
   useEffect(() => {
     AOS.init({
@@ -9,6 +10,7 @@ function SpeakerCard(props) {
       duration: 600,
     });
   }, []);
+  
   return (
     <div
       className="flex flex-row border-solid border-2 border-black-500 mt-8"

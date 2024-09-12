@@ -11,6 +11,8 @@ const Faq = React.lazy(() => import("./components/Faq"));
 import Footer from "./components/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import SocialIcons from "./components/SocialIcons";
+import Voulanteers from "./components/voulanteers/Voulanteers";
+
 const SpeakersList = React.lazy(() =>
   import("./components/Speakers/SpeakersList")
 );
@@ -38,6 +40,7 @@ function App() {
           <SpeakersList />
           <Sponsers />
           <TeamList />
+          <Voulanteers />
           <Venue />
           <Faq />
           <Footer />

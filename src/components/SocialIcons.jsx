@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaTwitterSquare } from "react-icons/fa";
 const SocialIcons = () => {
   return (
-    <div className="fixed top-[40%] ">
+    <div className="fixed top-[40%] right-[0%]">
       <div className="flex flex-col gap-2 bg-white p-1 rounded-md">
         <a
           href="https://www.instagram.com/scdindore?igsh=MXVkcm5kNG9yYXVpZw=="

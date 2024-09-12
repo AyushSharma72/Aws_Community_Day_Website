@@ -1,6 +1,15 @@
 import React from "react";
-import Contributor from "./Contributor";
-
+import ContributorCard from "./ContributorCard";
+import Anshul from '../../assets/Volunteer/Anshul.jpg'
+import Ambika from '../assest/Volunteer/Ambika.jpg'
+let CoreTeamMember = [
+  {
+    id:'1',
+    name:'Ambika',
+    linkedin:'https://www.linkedin.com/in/ambika-choudhary-619964277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:Ambika
+  }
+]
 function ContributorList() {
   return (
     <>
@@ -8,33 +17,15 @@ function ContributorList() {
         Our Contributor
       </h1>
       <div className="flex items-center justify-center gap-20 flex-wrap w-[80%]">
-        <Contributor
+        {/* <ContributorCard
           name="Ayush Sharma"
           position="Volunter"
           linkedin="#"
-          image="https://cdn.pixabay.com/photo/2024/05/02/12/14/ai-generated-8734608_640.jpg"
-        />
-
-        <Contributor
-          name="ABC"
-          position="XYZ"
-          linkedin="#"
-          image="https://cdn.pixabay.com/photo/2024/05/02/12/14/ai-generated-8734608_640.jpg"
-        />
-
-        <Contributor
-          name="ABC"
-          position="Xyz"
-          linkedin="#"
-          image="https://cdn.pixabay.com/photo/2024/05/02/12/14/ai-generated-8734608_640.jpg"
-        />
-
-        <Contributor
-          name="ABC"
-          position="Xyz"
-          linkedin="#"
-          image="https://cdn.pixabay.com/photo/2024/05/02/12/14/ai-generated-8734608_640.jpg"
-        />
+          image={Anshul}
+        /> */}
+        {CoreTeamMember.map((data,index)=>(
+          <ContributorCard />
+        ))}
       </div>
     </>
   );

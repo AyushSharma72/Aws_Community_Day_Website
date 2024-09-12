@@ -161,7 +161,7 @@ const Header = () => {
       <Box className="flex md:hidden">
         <CssBaseline />
         <AppBar
-          position="fixed"
+          
           className="py-2"
           open={open}
           style={{

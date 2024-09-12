@@ -12,6 +12,7 @@ import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import SocialIcons from "./components/SocialIcons";
+import ContributorList from "./components/Contributors/ContributorList";
 
 function App() {
   const [loading, Setloading] = useState(true);
@@ -36,6 +37,7 @@ function App() {
           <Speakers />
           <Sponsers />
           <TeamList />
+          <ContributorList/>
           <Venue />
           <Faq />
           <Footer />

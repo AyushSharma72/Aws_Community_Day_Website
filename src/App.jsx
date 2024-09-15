@@ -8,14 +8,12 @@ import Sponsers from "./components/Sponsers";
 const TeamList = React.lazy(() => import("./components/Team/TeamList"));
 const Venue = React.lazy(() => import("./components/Venue"));
 const Faq = React.lazy(() => import("./components/Faq"));
+import SpeakersList from './components/Speakers/SpeakersList'
+import Voulanteers from './components/voulanteers/Voulanteers'
 import Footer from "./components/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import SocialIcons from "./components/SocialIcons";
-import Voulanteers from "./components/voulanteers/Voulanteers";
-
-const SpeakersList = React.lazy(() =>
-  import("./components/Speakers/SpeakersList")
-);
+import ContributorList from "./components/Contributors/ContributorList";
 
 function App() {
   const [loading, Setloading] = useState(true);
@@ -40,6 +38,7 @@ function App() {
           <SpeakersList />
           <Sponsers />
           <TeamList />
+          <ContributorList/>
           <Voulanteers />
           <Venue />
           <Faq />

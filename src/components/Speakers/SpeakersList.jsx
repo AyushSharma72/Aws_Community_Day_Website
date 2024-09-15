@@ -4,7 +4,7 @@ import stephen from "../../assets/Speakers/stephen.png";
 import ramneek from "../../assets/Speakers/ramneek.png";
 import surabhi from "../../assets/Speakers/surabhi.png";
 import chirag from "../../assets/Speakers/chirag.png";
-
+import sambit from '../../assets/Speakers/Sambit1.jpg'
 function SpeakersList() {
   return (
     <div id="Speakers">
@@ -36,6 +36,12 @@ function SpeakersList() {
             about="Technical Account Manager AWS"
             image={chirag}
             linkedin="https://www.linkedin.com/in/chiragoswal/"
+          />
+           <SpeakerCard
+            heading="Sambit B."
+            about="Driving Discoverability & Growth AWS"
+            image={sambit}
+            linkedin="https://www.linkedin.com/in/sambitbhattarai?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           />
         </div>
       </div>

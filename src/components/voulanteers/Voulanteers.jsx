@@ -7,6 +7,7 @@ import Anika from "../../assets/Volunteers/Anika.jpg";
 import Anurag from "../../assets/Volunteers/Anurag.jpg";
 import Arni from "../../assets/Volunteers/Arni.jpg";
 import Ayushi from "../../assets/Volunteers/Ayushi.jpg";
+import Diksha from '../../assets/Volunteers/Diksha.jpeg'
 import Ishita from "../../assets/Volunteers/Ishita.jpg";
 import Kajal from "../../assets/Volunteers/Kajal.jpg";
 import Khushi from "../../assets/Volunteers/Khushi.jpg";
@@ -37,11 +38,11 @@ const Voulanteers = () => {
         "https://www.linkedin.com/in/arni-khede?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       image: Arni,
     },
-    // {
-    //   name: "Diksha Gupta",
-    //   linkedin: "https://www.linkedin.com/in/diksha-gupta3094/",
-    //   image: Diksha,
-    // },
+    {
+      name: "Diksha Gupta",
+      linkedin: "https://www.linkedin.com/in/diksha-gupta3094/",
+      image: Diksha,
+    },
     {
       name: "Kajal Bharti",
       linkedin:

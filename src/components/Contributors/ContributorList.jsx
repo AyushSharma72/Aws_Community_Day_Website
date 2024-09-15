@@ -1,33 +1,133 @@
 import React from "react";
-import ContributorCard from "./ContributorCard";
-import Anshul from '../../assets/Volunteer/Anshul.jpg'
-import Ambika from '../assest/Volunteer/Ambika.jpg'
+import { FaLinkedin } from "react-icons/fa";
+import Ambika from "../../assets/CoreTeam/Ambika.jpg";
+import Anshul from "../../assets/CoreTeam/Anshul.jpg";
+import Angad from "../../assets/CoreTeam/Angad.jpg";
+import Ayush from '../../assets/CoreTeam/Ayush.jpg'
+import Harshali from '../../assets/CoreTeam/Harshali.jpg'
+import Kashi from "../../assets/CoreTeam/Kashi.jpg";
+import Kunal from "../../assets/CoreTeam/Kunal.jpg";
+import Parag from "../../assets/CoreTeam/Parag.png";
+import Saara from "../../assets/CoreTeam/Saara.jpg";
+import Vanshita from "../../assets/CoreTeam/Vanshita.jpg";
 let CoreTeamMember = [
   {
-    id:'1',
-    name:'Ambika',
-    linkedin:'https://www.linkedin.com/in/ambika-choudhary-619964277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    image:Ambika
-  }
-]
+    id: "1",
+    name: "Ambika Choudhary",
+    linkedin:
+      "https://www.linkedin.com/in/ambika-choudhary-619964277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: Ambika,
+  },
+  {
+    id: "2",
+    name: "Anshul Tomar",
+    linkedin:
+      "https://www.linkedin.com/in/anshul-tomar-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: Anshul,
+  },
+  {
+    id: "3",
+    name: "Angad Singh Saluja ",
+    linkedin:
+      "https://www.linkedin.com/in/angad-singh-saluja-770299225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: Angad,
+  },
+
+  {
+    id: "4",
+    name: "Ayush Sharma ",
+    linkedin:
+      "https://www.linkedin.com/in/ayush-sharma-a155a8267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image:Ayush,
+  },
+  // {
+  //   id: "5",
+  //   name: "Chitresh Mourya",
+  //   linkedin:
+  //     "#",
+  //   image: '',
+  // },
+  {
+    id: "6",
+    name: "Harshali Thakur",
+    linkedin:
+      "https://www.linkedin.com/in/harshali-thakur-576753274",
+    image: Harshali,
+  },
+  {
+    id: "7",
+    name: "Kashi Sankhla",
+    linkedin:
+      "https://www.linkedin.com/in/kashi-sankhla-41a1a6222/",
+    image: Kashi,
+  },
+  {
+    id: "8",
+    name: "Kunal Malviya",
+    linkedin:
+      "https://www.linkedin.com/in/kunal-malviya-294b2b255",
+    image: Kunal,
+  },
+  {
+    id: "9",
+    name: "Parag Dongre",
+    linkedin:
+      "https://www.linkedin.com/in/parag-dongre/",
+    image: Parag,
+  },
+  {
+    id: "10",
+    name: "Saara Khan",
+    linkedin:
+      "https://www.linkedin.com/in/saarakhan001",
+    image: Saara,
+  },
+  {
+    id: "11",
+    name: "Vanshita Rajoriya ",
+    linkedin:
+      "https://wwwlinkedin.com/in/vanshita-rajoriya-955041248",
+    image: Vanshita,
+  },
+];
+
 function ContributorList() {
   return (
-    <>
-      <h1 className="mt-11 mb-8 text-3xl font-bold text-center Blackheadingshadow">
-        Our Contributor
-      </h1>
-      <div className="flex items-center justify-center gap-20 flex-wrap w-[80%]">
-        {/* <ContributorCard
-          name="Ayush Sharma"
-          position="Volunter"
-          linkedin="#"
-          image={Anshul}
-        /> */}
-        {CoreTeamMember.map((data,index)=>(
-          <ContributorCard />
+    <div className="w-full flex justify-center flex-col mt-10 mb-10">
+      <p className="text-3xl font-bold mt-6 mb-6 Blackheadingshadow m-auto">
+        CORE TEAM MEMBERS
+      </p>
+
+      {/* card */}
+      <div className="flex flex-wrap justify-center items-center md:gap-20 gap-10 mt-5 mx-2">
+        {CoreTeamMember.map((member) => (
+          <div key={member.id} className="flex flex-col items-center">
+            <div className="relative group">
+              <a href={member.linkedin} target="_blank">
+                <img
+                  src={member.image}
+                  className="w-[150px] h-[150px] rounded-xl object-cover hover:bg-black hover:opacity-85"
+                />
+              </a>
+              {/* Linkedin icon on hover */}
+              <a
+                href={member.linkedin}
+                target="_blank"
+                className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              >
+                <FaLinkedin className="text-blue-700 text-center w-8 h-8" />
+              </a>
+            </div>
+
+            <div className="text-center mt-2">
+              <p className="text-lg font-extrabold text-center">
+                {member.name}
+              </p>
+            </div>
+          </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

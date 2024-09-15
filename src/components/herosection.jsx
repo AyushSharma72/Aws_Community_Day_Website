@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaCalendarDays } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
-// import AwsAnimation from "../Animations/awsAnimation";
 
 const Herosection = () => {
   useEffect(() => {
@@ -20,11 +19,6 @@ const Herosection = () => {
       id="Home"
     >
       <div className="w-full flex justify-center mt-2" data-aos="fade-right">
-        {/* animation */}
-        {/* <div id="AnimationDiv" className="mb-3">  
-          <AwsAnimation />
-        </div> */}
-
         <img src={AwsLogo} className="w-20"></img>
       </div>
 
@@ -80,7 +74,10 @@ const Herosection = () => {
         data-aos-delay="1200"
         data-aos-easing="ease-out-cubic"
       >
-        <a href="https://forms.gle/zt3oqQpcFy1GUYf67" target="blank">
+        <a
+          href="https://konfhub.com/aws-student-community-day-indore-2024"
+          target="blank"
+        >
           <button className="button p-2 py-3">
             <p className="button-text">Register Now</p>
 

@@ -7,7 +7,7 @@ import Anika from "../../assets/Volunteers/Anika.jpg";
 import Anurag from "../../assets/Volunteers/Anurag.jpg";
 import Arni from "../../assets/Volunteers/Arni.jpg";
 import Ayushi from "../../assets/Volunteers/Ayushi.jpg";
-import Diksha from '../../assets/Volunteers/Diksha.jpeg'
+import Diksha from "../../assets/Volunteers/Diksha.jpeg";
 import Ishita from "../../assets/Volunteers/Ishita.jpg";
 import Kajal from "../../assets/Volunteers/Kajal.jpg";
 import Khushi from "../../assets/Volunteers/Khushi.jpg";
@@ -130,7 +130,7 @@ const Voulanteers = () => {
       </p>
 
       {/* card */}
-      <div className="flex flex-wrap justify-center items-center gap-10 mt-5 sm:gap-20">
+      <div className="flex flex-wrap justify-center items-center gap-10 mt-5 sm:gap-x-24 sm:gap-y-14">
         {Information.map((Info, index) => (
           <div key={index}>
             <a href={Info.linkedin} target="_blank">

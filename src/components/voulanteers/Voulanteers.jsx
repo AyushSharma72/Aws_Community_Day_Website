@@ -17,6 +17,10 @@ import Palak from "../../assets/Volunteers/Palak.jpg";
 import Sneha from "../../assets/Volunteers/Sneha.png";
 import Tushar from "../../assets/Volunteers/Tushar.jpg";
 import Prakhar from "../../assets/Volunteers/Prakhar.png";
+import lochan from "../../assets/Volunteers/lochan.jpg";
+import Chetan from "../../assets/Volunteers/Chetan.jpg";
+import Animesh from "../../assets/Volunteers/Animesh.jpg";
+import Anekant from "../../assets/Volunteers/Anekant.jpg";
 
 const Voulanteers = () => {
   const Information = [
@@ -120,6 +124,26 @@ const Voulanteers = () => {
       linkedin:
         "https://www.linkedin.com/in/anika-babar-143926323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       image: Anika,
+    },
+    {
+      name: "Lochan Vaidya",
+      linkedin: "#",
+      image: lochan,
+    },
+    {
+      name: "Anekant Jain",
+      linkedin: "#",
+      image: Anekant,
+    },
+    {
+      name: "Chetan Mehta",
+      linkedin: "#",
+      image: Chetan,
+    },
+    {
+      name: "Animesh Bokil",
+      linkedin: "#",
+      image: Animesh,
     },
   ];
 

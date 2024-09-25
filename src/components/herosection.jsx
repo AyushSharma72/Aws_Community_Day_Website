@@ -60,6 +60,9 @@ const Herosection = () => {
             <span>
               26<sup>th</sup> September 2024{" "}
             </span>
+            <span>
+              (From <span className="text-cyan-300">12 PM</span> To <span className="text-cyan-300">5 PM</span>)
+            </span>
           </span>{" "}
           <span className="flex gap-1 items-center  ">
             <FaLocationDot /> DAVV Auditorium Indore

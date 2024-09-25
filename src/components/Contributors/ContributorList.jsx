@@ -10,6 +10,11 @@ import Kunal from "../../assets/CoreTeam/Kunal.jpg";
 import Parag from "../../assets/CoreTeam/Parag.png";
 import Saara from "../../assets/CoreTeam/Saara.jpg";
 import Vanshita from "../../assets/CoreTeam/Vanshita.jpg";
+import lochan from "../../assets/Volunteers/lochan.jpg";
+import Chetan from "../../assets/Volunteers/Chetan.jpg";
+import Animesh from "../../assets/Volunteers/Animesh.jpg";
+import Anekant from "../../assets/Volunteers/Anekant.jpg";
+
 let CoreTeamMember = [
   {
     id: "1",
@@ -84,6 +89,10 @@ let CoreTeamMember = [
     linkedin: "https://wwwlinkedin.com/in/vanshita-rajoriya-955041248",
     image: Vanshita,
   },
+  { id: "12", name: "Lochan Vaidya", linkedin: "#", image: lochan },
+  { id: "13", name: "Anekant Jain", linkedin: "#", image: Anekant },
+  { id: "14", name: "Chetan Mehta", linkedin: "#", image: Chetan },
+  { id: "15", name: "Animesh Bokil", linkedin: "#", image: Animesh },
 ];
 
 function ContributorList() {
